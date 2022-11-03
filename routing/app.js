@@ -2,7 +2,7 @@ const express = require('express'),
         app = express();
 
 const host = '127.0.0.1';
-const port = 3000;
+const port = 7000;
 
 app.route('/api/users')
     .get((req, res) => {res.send('get')})
