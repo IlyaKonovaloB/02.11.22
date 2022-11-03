@@ -2,7 +2,7 @@ const fs = require('fs');
 const app = require('express')()
 
 const host = '127.0.0.1'
-const port = 3000
+const port = 7000
 
 const content = fs.readFileSync('files/data.txt', 'utf8');
 console.log(content);
